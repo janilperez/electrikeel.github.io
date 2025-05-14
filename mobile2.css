@@ -1,0 +1,217 @@
+@media screen and (max-width: 470px) {
+
+.nav-bar {
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #3E1D91;
+  border-bottom: 1px solid #FFFCF9;
+  position: relative;
+  z-index: 10;
+}
+
+.nav-bar .nav-left,
+.nav-bar .nav-center,
+.nav-bar .nav-right {
+  display: none;
+}
+
+.nav-bar .hamburger {
+  display: block;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+body.menu-open {
+  overflow: hidden;
+  }
+
+/* HERO SECTION */
+
+
+.banner .logo {
+  width: 320px;
+  top: 45%;
+}
+
+/* EVENT DATES */
+
+.event-dates {
+  gap: 15px;
+  transform: translate(-50%, 60%);
+  bottom: 38%;
+}
+
+.event {
+  font-size: 18px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+.event .city,
+.event .date {
+  display: inline-block;
+}
+
+.event .star-img {
+  width: 14px;
+  height: 14px;
+  transform: translateY(1px);
+}
+
+/* ARTISTS SECTION */
+
+.artist-line1 {
+  font-size: 30px;
+}
+
+.artist-line2 {
+  font-size: 20px;
+}
+
+.country {
+  font-size: 10px;
+  top: -8px;
+}
+
+/* GALLERY SECTION — show only 1 image */
+
+.gallery-img {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.gallery-img:nth-child(n+2) {
+  display: none;
+}
+
+/* CTA GRID SECTION (tiles stack) */
+
+.cta-grid {
+  flex-direction: column;
+}
+
+.cta-left, .cta-right {
+  flex: 1;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+}
+
+.cta-right {
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-heading-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cta-heading-row .cta-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.cta-tile {
+  padding: 24px;
+}
+
+.cta-heading-text h2 {
+  font-size: 28px;
+}
+
+.cta-socials {
+  justify-content: center;
+  align-self: center;
+  font-size: 30px;
+}
+
+/* SIGNUP SECTION */
+
+.signup-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.signup-heading {
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.signup-heading h2 {
+  font-size: 28px;
+}
+
+.signup-star {
+  width: 28px;
+  height: 28px;
+}
+
+.signup-form {
+  gap: 16px;
+}
+
+/* LISTENING SECTION */
+
+.listening-section {
+  flex-direction: column;
+  padding: 40px 20px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #FFFCF9;
+}
+
+.listening-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.listening-left img {
+  width: 28px;
+  height: 28px;
+}
+
+.listening-left h2 {
+  font-size: 28px;
+}
+
+.listening-right iframe {
+  height: 400px;
+}
+
+/* LISTENING CTA stacked */
+
+.listening-cta {
+  flex-direction: column;
+}
+
+.cta-btn {
+  font-size: 16px;
+  padding: 24px;
+  gap: 12px;
+  justify-content: space-between;
+  border-left: none;
+  border-right: none;
+}
+
+.cta-btn:last-child {
+  border-bottom: none;
+}
+
+}

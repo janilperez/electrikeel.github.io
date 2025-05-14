@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elektrik Eel - Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/desktop.css">
+    <script src="https://kit.fontawesome.com/bcd810a068.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/desktop.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" href="css/mobile1.css">
+    <link rel="stylesheet" href="css/mobile2.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="javascript/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+<body>
+    <header>
+        <!-- navigation bar -->
+        <div class="nav-bar">
+            <a href="#" class="hamburger" onclick="openNav()"><i class="fa-solid fa-bars"></i></a>
+
+            <div class="nav-left">
+                <img src="images/logo.svg" alt="elektrik eel logo">
+            </div>
+        
+            <div class="nav-center">
+                <div class="menu-links">
+                    <a href="artists.html" class="nav-link"><h5>ARTISTS</h5></a>
+                    <a href="#" class="nav-link"><h5>EVENT INFO</h5></a>
+                    <a href="#" class="nav-link"><h5>CONTACT</h5></a>
+                </div>
+            </div>
+        
+            <div class="nav-right">
+                <a href="#">BUY TICKETS</a>
+                <img src="images/arrow.svg" alt="arrow">
+            </div>
+        </div>
+        
+        <!-- full screen overlay nav -->
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="artists.html" id="nav-main-link"><h3>ARTISTS</h3></a>
+                <a href="#"><h3>EVENT INFO</h3></a>
+                <a href="#"><h3>CONTACT</h3></a>
+                <a href="#" class="nav-cta">BUY TICKETS<img src="images/arrow.svg" alt="arrow"></a>
+            </div>
+        </div>
+
+        <!-- hero section -->
+        <div class="hero">
+            <div class="banner">
+                <video autoplay muted loop playsinline>
+                    <source src="videos/bgvideo.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+    
+                <div class="logo"><img src="images/logo.svg" alt="electrik eel logo"></div>
+    
+                <div class="event-dates">
+                    <h3 class="event">
+                        <span class="city">BRISBANE</span>
+                        <img src="images/pinkstar.svg" class="star-img" alt="pink asterisk">
+                        <span class="date">19 DECEMBER</span>
+                    </h3>
+                    <h3 class="event">
+                        <span class="city">SYDNEY</span>
+                        <img src="images/pinkstar.svg" class="star-img" alt="pink asterisk">
+                        <span class="date">20 DECEMBER</span>
+                    </h3>
+                    <h3 class="event">
+                        <span class="city">MELBOURNE</span>
+                        <img src="images/pinkstar.svg" class="star-img" alt="pink asterisk">
+                        <span class="date">21 DECEMBER</span>
+                    </h3>
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <div class="cta-banner">
+                <div class="cta-track">
+                    <div class="cta-content">
+                        <div class="scroll-item">
+                          <img src="images/arrow.svg" class="arrow-img" alt="arrow">
+                          <h4>3 NIGHTS OF PREMIERE ARTISTRY AND HYPNOTIC CRAFTSMANSHIP</h4>
+                        </div>
+                        <div class="scroll-item">
+                          <img src="images/arrow.svg" class="arrow-img" alt="arrow">
+                          <h4>3 NIGHTS OF PREMIERE ARTISTRY AND HYPNOTIC CRAFTSMANSHIP</h4>
+                        </div>
+                        <div class="scroll-item">
+                          <img src="images/arrow.svg" class="arrow-img" alt="arrow">
+                          <h4>3 NIGHTS OF PREMIERE ARTISTRY AND HYPNOTIC CRAFTSMANSHIP</h4>
+                        </div>
+                        <div class="scroll-item">
+                          <img src="images/arrow.svg" class="arrow-img" alt="arrow">
+                          <h4>3 NIGHTS OF PREMIERE ARTISTRY AND HYPNOTIC CRAFTSMANSHIP</h4>
+                        </div>
+                        <div class="scroll-item">
+                          <img src="images/arrow.svg" class="arrow-img" alt="arrow">
+                          <h4>3 NIGHTS OF PREMIERE ARTISTRY AND HYPNOTIC CRAFTSMANSHIP</h4>
+                        </div>
+                      </div>                      
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- artists section -->
+        <div class="artists">
+            <div class="lineup">
+          
+              <div class="artist-line artist-line1">
+                <img src="images/pinkstar.svg" class="star-img" alt="pink asterisk">
+                <span class="name">richie hawtin</span>
+                <span class="country">(CANADA)</span>
+              </div>
+          
+              <div class="artist-line artist-line2">
+                <span class="artist-block">
+                  <span class="name">robert hood</span>
+                  <span class="country">(USA)</span>
+                </span>
+                <span class="artist-block">
+                  <img src="images/pinkstar.svg" class="star-img" alt="pink asterisk">
+                  <span class="name">oscar mulero</span>
+                  <span class="country">(SPAIN)</span>
+                </span>
+              </div>
+          
+              <div class="artist-line artist-line2">
+                <span class="artist-block">
+                  <span class="name">surgeon</span>
+                  <span class="country">(UK)</span>
+                </span>
+                <span class="artist-block">
+                  <img src="images/pinkstar.svg" class="star-img" alt="pink asterisk">
+                  <span class="name">robag wruhme</span>
+                  <span class="country">(GERMANY)</span>
+                </span>
+              </div>
+          
+              <div class="lineup-button">
+                <a href="artists.html" class="full-lineup-btn">FULL LINEUP <img src="images/arrow.svg" alt="arrow"></a>
+              </div>
+            </div>
+          </div>
+          
+
+        <!-- gallery section -->
+        <div class="gallery">
+            <div class="gallery-img"><img src="images/artist1.png" alt="Richie Hawtin"></div>
+            <div class="gallery-img"><img src="images/artist2.png" alt="Robert Hood"></div>
+            <div class="gallery-img"><img src="images/artist3.png" alt="Oscar Mulero"></div>
+            <div class="gallery-img"><img src="images/artist4.png" alt="Robag Whrume"></div>
+            <div class="gallery-img"><img src="images/artist5.png" alt="Surgeon"></div>
+            <div class="gallery-img"><img src="images/artist6.png" alt="Nina Kraviz"></div>
+            <div class="gallery-img"><img src="images/artist7.png" alt="Black Coffee"></div>
+            <div class="gallery-img"><img src="images/artist8.png" alt="Lilly Palmer"></div>
+            <div class="gallery-img"><img src="images/artist9.png" alt="Hugel"></div>
+            <div class="gallery-img"><img src="images/artist10.png" alt="Amelie Lens"></div>
+            <div class="gallery-img"><img src="images/artist11.png" alt="Christian Rogers"></div>
+            <div class="gallery-img"><img src="images/artist12.png" alt="Bad Boombox"></div>
+            <div class="gallery-img"><img src="images/artist13.png" alt="Mischluft"></div>
+            <div class="gallery-img"><img src="images/artist14.png" alt="Indira Paganotto"></div>
+            <div class="gallery-img"><img src="images/artist15.png" alt="David Löhlein"></div>
+            <div class="gallery-img"><img src="images/artist16.png" alt="Funk Tribu"></div>
+        </div>
+
+        <!-- cta grid section -->
+        <div class="cta-grid">
+            <div class="cta-left">
+                <div class="cta-tile"><h3>BUY TICKETS</h3><img src="images/arrow.svg" alt="arrow"></div>
+                <div class="cta-tile"><h3>SET TIMES</h3><img src="images/arrow.svg" alt="arrow"></div>
+                <div class="cta-tile"><h3>FESTIVAL MAP</h3><img src="images/arrow.svg" alt="arrow"></div>
+            </div>
+
+            <div class="cta-right">
+                <div class="cta-heading">
+                    <div class="cta-heading-row">
+                        <img class="cta-icon" src="images/bluestar.svg" alt="blue asterisk">
+                        <div class="cta-heading-text">
+                          <h2>follow us on socials.</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-spotify"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- sign up section -->
+        <div class="signup-section">
+            <div class="signup-heading">
+                <img class="signup-star" src="images/pinkstar.svg" alt="pink asterisk">
+                <h2>sign up for updates.</h2>
+            </div>
+            <div class="signup-form">
+              <input type="text" placeholder="FIRST NAME">
+              <input type="text" placeholder="LAST NAME">
+              <input type="email" placeholder="EMAIL">
+              <button type="submit">SIGN UP <img src="images/arrow.svg" alt="arrow"></button>
+            </div>            
+        </div>
+
+        <!-- listening section -->
+        <div class="listening-section">
+            <div class="listening-left">
+                <img src="images/bluestar.svg" alt="blue asterisk">
+                <h2>start listening now.</h2>
+            </div>
+            <div class="listening-right">
+                <iframe
+                style="border: none; border-radius: 12px;"
+                src="https://open.spotify.com/embed/playlist/2To2yw265gBzdJIx3daWZs?utm_source=generator"
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="listening-cta">
+            <a href="artists.html" class="cta-btn">FULL LINEUP <img src="images/arrow.svg" alt="arrow"></a>
+            <a href="#" class="cta-btn">OPEN SPOTIFY <img src="images/arrow.svg" alt="arrow"></a>
+        </div>
+
+        <!-- sponsors  -->
+        <div class="sponsors-scroll">
+            <div class="sponsors-track">
+              <img src="images/spotify-logo.png" alt="Spotify logo">
+              <img src="images/redbull-logo.png" alt="Red Bull logo">
+              <img src="images/bumble-logo.png" alt="Bumble logo">
+              <img src="images/triplej-logo.png" alt="Triple J logo">
+              <img src="images/smirnoff-logo.png" alt="Smirnoff logo">
+              <img src="images/moshtix-logo.png" alt="Moshtix logo">
+
+              <img src="images/spotify-logo.png" alt="Spotify logo">
+              <img src="images/redbull-logo.png" alt="Red Bull logo">
+              <img src="images/bumble-logo.png" alt="Bumble logo">
+              <img src="images/triplej-logo.png" alt="Triple J logo">
+              <img src="images/smirnoff-logo.png" alt="Smirnoff logo">
+              <img src="images/moshtix-logo.png" alt="Moshtix logo">
+
+               <img src="images/spotify-logo.png" alt="Spotify logo">
+              <img src="images/redbull-logo.png" alt="Red Bull logo">
+              <img src="images/bumble-logo.png" alt="Bumble logo">
+              <img src="images/triplej-logo.png" alt="Triple J logo">
+              <img src="images/smirnoff-logo.png" alt="Smirnoff logo">
+              <img src="images/moshtix-logo.png" alt="Moshtix logo">
+            </div>
+          </div>
+          
+        <!-- scroll to top icon  -->
+        <div class="scroll">
+          <div class="scrollToTop">&#x2303;</div>
+        </div>
+        
+    </main>
+
+        <!-- footer section -->
+        <footer class="footer">
+            <div class="footer-top">
+              <div class="footer-columns">
+                <div class="footer-col">
+                  <h4>LOCATION</h4>
+                  <ul>
+                    <li>SYDNEY</li>
+                    <li>BRISBANE</li>
+                    <li>MELBOURNE</li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>ABOUT</h4>
+                  <ul>
+                    <li>EVENT INFO</li>
+                    <li>BUY TICKETS</li>
+                    <li>CONTACTS</li>
+                  </ul>
+                </div>
+                <div class="footer-col">
+                  <h4>SOCIALS</h4>
+                  <ul>
+                    <li>FACEBOOK</li>
+                    <li>INSTAGRAM</li>
+                    <li>TIKTOK</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          
+            <div class="footer-bottom">
+                <div class="footer-icons">
+                    <i class="fa-brands fa-spotify"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </div>
+              <div class="footer-logo">
+                <img src="images/logo.svg" alt="Electrik Eel logo">
+              </div>
+              <h4>COPYRIGHT © ELECTRIK EEL FESTIVAL 2025. ALL RIGHTS RESERVED.</h4>
+            </div>
+          </footer>
+</body>
+</html>
+

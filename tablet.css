@@ -1,0 +1,217 @@
+@media screen and (max-width: 1024px){
+
+.banner .logo {
+  width: 520px;
+  top: 45%;
+}
+
+.overlay {
+  display: none;
+}
+
+/* EVENT DATES */
+
+.event-dates {
+  gap: 15px;
+  transform: translate(-40%, 60%);
+  bottom: 38%;
+}
+
+.event {
+  font-size: 24px;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; 
+  white-space: nowrap;
+}
+
+.event .city,
+.event .date {
+  display: inline-block;
+}
+
+.event .star-img {
+  width: 14px;
+  height: 14px;
+  transform: translateY(1px);
+}
+
+/* ARTISTS SECTION HEADER */
+.section-header {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 60px 40px;
+  gap: 20px;
+}
+
+.section-description {
+  margin: 0;
+  font-size: 15px;
+}
+
+.section-title h2 {
+  font-size: 40px;
+}
+
+.section-icon {
+  width: 25px;
+  height: 25px;
+}
+
+/* ARTISTS */
+
+.artists {
+  min-height: 60vh;
+}
+
+.artist-line1 {
+  font-size: 55px;
+  gap: 12px;
+}
+
+.artist-line2 {
+  font-size: 40px;
+  gap: 12px;
+}
+
+.star-img {
+  width: 20px;
+  height: 20px;
+  transform: translateY(3px);
+}
+
+.country {
+  font-size: 0.9rem;
+  top: -6px;
+}
+
+.lineup {
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.lineup-button {
+  margin-top: 30px;
+}
+
+.full-lineup-btn img {
+  width: 14px;
+  height: 14px;
+  margin-left: 8px;
+}
+
+/* GALLERY SECTION — only show 2 images */
+.gallery {
+  flex-wrap: wrap;
+}
+
+.gallery-img {
+  flex: 0 0 50%; /* Show 2 images side-by-side */
+  max-width: 50%;
+}
+
+.gallery-img:nth-child(3) {
+  display: none; /* Hide the third image */
+}
+
+.artist-name{
+  font-size: 25px;
+}
+
+
+/* SIGNUP SECTION — stack input + button vertically */
+
+.signup-section {
+  padding: 80px 30px;
+  align-items: center;
+  text-align: center;
+}
+
+.signup-heading {
+  justify-content: center;
+}
+
+.signup-form {
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"] {
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.signup-form button {
+  width: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+/* LISTENING SECTION — stacked for tablet */
+
+.listening-section {
+  flex-direction: column;
+  padding: 40px 40px;
+  align-items: flex-start;
+  text-align: left;
+  border-top: 1px solid #FFFCF9;
+}
+
+.listening-left {
+  height: auto;
+  max-height: 100px;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+  gap: 12px; /* optional tweak */
+}
+
+.listening-left img {
+  width: 36px;
+  height: 36px;
+}
+
+.listening-left h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.listening-right {
+  width: 100%;
+}
+
+.listening-right iframe {
+  width: 100%;
+  height: 500px;
+}
+
+/* LISTENING CTA buttons stacked */
+
+.listening-cta {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.cta-btn {
+  font-size: 20px;
+  flex: 1;
+  padding: 40px;
+  border-bottom: 1px solid #FFFCF9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-btn:last-child {
+  border-bottom: none;
+}
+
+}
